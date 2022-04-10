@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+float celsjusz, fahrenheit, kelvin;
+
+int main()
+{
+    cout << "Proszę podać temperaturę (°C): ";
+    cin >> celsjusz;
+    fahrenheit = (celsjusz * 1.8) + 32;
+    kelvin = celsjusz + 273.15;
+    cout << "Temperatura w stopniach Fahrenheita wynosi: " << fahrenheit << endl;
+    cout << "Temperatura w Kelvinach wynosi: " << kelvin;
+    return 0;
+}

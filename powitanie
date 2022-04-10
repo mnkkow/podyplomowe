@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string imie, nazwisko;
+
+int main() {
+    cout << "Podaj swoje imię: ";
+    cin >> imie;
+    cout << "Podaj swoje nazwisko: ";
+    cin >> nazwisko;
+    cout << "Witaj " << imie << " " << nazwisko <<  "! Miłego dnia:)";
+
+    return 0;
+}
